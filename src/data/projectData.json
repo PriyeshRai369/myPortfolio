@@ -1,0 +1,69 @@
+
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Google Gemini Clone",
+        "description": "Implemented Google Gemini Clone using React and Google Gemini API to deliver   real-time responses based on user prompts.",
+        "image": "/images/googleGemini.png",
+        "link": "https://googlegeminiai.netlify.app" 
+      },
+      {
+        "id": 2,
+        "title": "Password Manager",
+        "description": "Developed a password manager web application using React, enabling users to securely store and manage usernames and passwords for various websites. Implemented local storage functionality for data persistence and enhanced user privacy.",
+        "image": "/images/password.svg",
+        "link": "https://itssecurenest.netlify.app" 
+      },
+      {
+        "id": 3,
+        "title": "Hospital Management System .",
+        "description": "I have developed hospital management system in my collage projects. In this project technology I used is HTML, CSS, Java Script, Bootstrap, PHP, MySQL, jQuery & other UI and fonts library",
+        "image": "/images/doctor.png",
+        "link": "https://doctorportels.000webhostapp.com/" 
+      },
+      {
+        "id": 4,
+        "title": "Discussion Portal.",
+        "description": "Developed a dynamic discussion portal using JavaScript, EJS, Node.js, and MongoDB, facilitating open dialogue and knowledge-sharing among users.",
+        "image": "/images/blogApp.png",
+        "link": "https://github.com/PriyeshRai369/discussionportal"
+      },
+      {
+        "id": 5,
+        "title": "Landing Page For Coffee Shop",
+        "description": "Develop Landing Page Using React for a coffee shope where user order ther coffeee.",
+        "image": "/images/coffeeLanding.png",
+        "link": "https://letmegrabit.netlify.app"
+      },
+      {
+        "id": 6,
+        "title": "Image Gallery",
+        "description": "Image gallery using HTML, CSS, and Javascript",
+        "image": "/images/imageGallery.png",
+        "link": "https://imagesitetest.netlify.app"
+      },
+      {
+        "id": 7,
+        "title": "Notes Making Web App",
+        "description": "Developed a Note Taking web application using React, enabling users to securely store and manage their daily notes for various works or subjects. Implemented local storage functionality for data persistence and enhanced user privacy.",
+        "image": "/images/keepNotes.png",
+        "link": "https://makeurnotes.netlify.app"
+      },
+      {
+        "id": 8,
+        "title": "Tic Tac Toe Game",
+        "description": " I have developed a Tic Tac Toe game with HTML, CSS & JavaScript",
+        "image": "/images/tictac.png",
+        "link": "https://itstictack.netlify.app"
+      },
+      {
+        "id": 9,
+        "title": "Weather Finder App",
+        "description": "Developed a Weather web application using HTML, CSS & JavaScript.",
+        "image": "/images/weather.png",
+        "link": "https://soweather.netlify.app"
+      }
+    ]
+  }
+  
