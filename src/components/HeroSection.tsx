@@ -12,7 +12,7 @@ function HeroSection() {
   const words = [
     "FrontEnd-Developer",
     "BackEnd-Developer",
-    "MERN-Stack-Developer &",
+    "MERN-Stack-Developer-&",
     "PHP-Developer",
   ];
   const disc =
@@ -24,43 +24,45 @@ function HeroSection() {
         className="left-0 lg:-top-16 md:-top-8 -top-32  "
         fill="white"
       />
-      <h1 className="lg:mt-28 md:mt-3 mt-2 whitespace-nowrap  font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 lg:text-8xl md:text-7xl sm:text-6xl text-4xl">
+      <h1 className="z-20 lg:mt-28 md:mt-3 mt-2 whitespace-nowrap  font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 lg:text-8xl md:text-7xl sm:text-6xl text-4xl">
         Priyesh Kumar Rai
       </h1>
-      <h1 className="text-2xl mt-1 mb-1 ">
-        A
-        <FlipWords words={words}  />
-      </h1>
-      <div className="mt-4 text-neutral-300 max-w-2xl mx-auto ">
+      <FlipWords words={words} className="text-2xl mt-4 z-20 " />
+      <div className="mt-4 text-neutral-300 max-w-2xl mx-auto z-20">
         <TextGenerateEffect
           words={disc}
           className="lg:text-xl md:text-sm text-xs"
         />
       </div>
-      <div className="w-full mt-10 h-20 flex flex-row justify-center items-center gap-7 p-5">
-        <Image
-          src="/images/github.png"
-          width={40}
-          height={40}
-          alt="linkedin"
-          className="w-10 h-10 cursor-pointer "
-        />
-        <Image
-          src="/images/linkedin.png"
-          width={40}
-          height={40}
-          alt="linkedin"
-          className="w-10 h-10 cursor-pointer "
-        />
-        <Image
-          src="/images/twitter.png"
-          width={40}
-          height={40}
-          alt="twitter"
-          className="w-12 h-12 cursor-pointer"
-        />
+      <div className="w-full mt-10 h-20 flex flex-row justify-center items-center gap-7 p-5 z-20">
+        <Link href={"https://github.com/PriyeshRai369"} target="_blank">
+          <Image
+            src="/images/github.png"
+            width={40}
+            height={40}
+            alt="linkedin"
+          />
+        </Link>
+        <Link href={"https://www.linkedin.com/in/priyesh-rai/"} target="_blank">
+          <Image
+            src="/images/linkedin.png"
+            width={40}
+            height={40}
+            alt="linkedin"
+            className="w-10 h-10 cursor-pointer "
+          />
+        </Link>
+        <Link href={"https://x.com/PriyeshRai555"} target="_blank">
+          <Image
+            src="/images/twitter.png"
+            width={40}
+            height={40}
+            alt="twitter"
+            className="w-12 h-12 cursor-pointer"
+          />
+        </Link>
       </div>
-      <div className="mt-5">
+      <div className="mt-5 z-20">
         <a
           href="/myCV.pdf"
           target="_blank"
@@ -77,7 +79,7 @@ function HeroSection() {
           </HoverBorderGradient>
         </a>
       </div>
-      <BackgroundBeams />
+      <BackgroundBeams className="z-10" />
     </div>
   );
 }
